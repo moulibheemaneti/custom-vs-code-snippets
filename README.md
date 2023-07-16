@@ -1,8 +1,6 @@
 # Custom VS Code Snippets
 
-<div style="background-color: #0065A9; height: 260px; display: flex; width: 100%; align-items: center; justify-content: center;">
-    <img src="vscode-alt.svg" height="200px" alt="Visual Studio Code">
-</div>
+<img src="banner.png" alt="Visual Studio Code">
 
 <br />
 
