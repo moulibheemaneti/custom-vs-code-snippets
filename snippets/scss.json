@@ -1,24 +1,11 @@
 {
-	// Place your snippets for scss here. Each snippet is defined under a snippet name and has a prefix, body and
-	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
-	// same ids are connected.
-	// Example:
-	// "Print to console": {
-	// 	"prefix": "log",
-	// 	"body": [
-	// 		"console.log('$1');",
-	// 		"$2"
-	// 	],
-	// 	"description": "Log output to console"
-	// }
 	"Media Query Mobile Only SCSS Mixin": {
 		"prefix": "mobile-only-mq",
 		"body": [
 			"@include mobile {",
 			"    $1",
 			"}"
-		],
+		]
 	},
 	"Media Query Desktop Only SCSS Mixin": {
 		"prefix": "desktop-only-mq",
@@ -26,7 +13,7 @@
 			"@include desktop {",
 			"    $1",
 			"}"
-		],
+		]
 	},
 	"Media Query Web Screen Only SCSS Mixin": {
 		"prefix": "web-screen-only-mq",
@@ -34,7 +21,7 @@
 			"@include web-screen {",
 			"    $1",
 			"}"
-		],
+		]
 	},
 	"Media Query Tab Screen Only SCSS Mixin": {
 		"prefix": "tab-screen-only-mq",
@@ -42,7 +29,7 @@
 			"@include tab-screen {",
 			"    $1",
 			"}"
-		],
+		]
 	},
 	"Media Query Large Screen Only SCSS Mixin": {
 		"prefix": "large-screen-only-mq",
@@ -50,7 +37,7 @@
 			"@include large-screen {",
 			"    $1",
 			"}"
-		],
+		]
 	},
 	"Create Mixin with cursor at mixin-name": {
 		"prefix": "mixin-name",
@@ -63,14 +50,14 @@
 	"Create Include with cursor at include-name": {
 		"prefix": "include-name",
 		"body": [
-			"@include $1;",
+			"@include $1;"
 		]
 	},
 	"REM function in scss": {
 		"prefix": "rem",
 		"body": [
-			"rem($1)",
-		],
+			"rem($1)"
+		]
 	},
 	"Create CSS class with cursor at css-name": {
 		"prefix": "css-name",
@@ -79,5 +66,5 @@
 			"    $2",
 			"}"
 		]
-	},
+	}
 }
